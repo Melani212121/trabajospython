@@ -7,9 +7,9 @@
 
 # 1. VARIABLES
 
-nombre = "Jimmy"       # String
-edad = 21              # Entero
-altura = 1.75          # Decimal
+nombre = "MELANI"       # String
+edad = 22             # Entero
+altura = 1.60         # Decimal
 activo = True          # Booleano
 
 print("=== VARIABLES ===")
@@ -75,7 +75,7 @@ print("Lista de números del 1 al 10:", numeros)
 # 4. DICCIONARIOS
 
 persona = {
-    "nombre": "Alejandro",
+    "nombre": "MELANI",
     "edad": 22,
     "ciudad": "Santo Domingo"
 }
@@ -132,7 +132,7 @@ for t in tareas:
     print("-", t)
 
 
-containertuple = ("Jimmy", 21, 1.75, True)
+containertuple = ("MELANI", 21, 1.75, True)
 
 print(containertuple[0])
 print(containertuple[1])
@@ -181,7 +181,7 @@ print(even_numbers2)
 def saludar(nombre):
     return 'Hola %s' % nombre
 
-tmp= saludar('Jimmy')
+tmp= saludar('MELANI')
 print(tmp)  
 
 # Serie de Fibonacci
@@ -206,7 +206,7 @@ print("El número mayor es:", mayor)
 def greetings(name="friend"):
     print(f"Hello, {name}!")
     return name
-greetings("Jimmy")
+greetings("MELANI")
 
 
 # Calculadora con dos numeros con menu, con while
